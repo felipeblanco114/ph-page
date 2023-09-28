@@ -1,9 +1,13 @@
-import React from 'react'
+import Header from "@/components/Header";
+import Main from "@/components/Main";
 
-const page = () => {
+const Home = () => {
   return (
-    <div>page</div>
+    <section className='home'>
+        <Header />
+        <Main />
+    </section>
   )
 }
 
-export default page
+export default Home

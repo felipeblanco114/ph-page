@@ -1,11 +1,13 @@
+import "@/styles/styles.css";
+
 export const metadata = {
   title: 'Benjamin Aguirre',
-  description: 'benjamin aguirre, fotografía',
+  description: 'Benjamin Aguirre, fotografía',
 }
 
 export default function RootLayout({ children }) {
  return (
-    <html lang="en">
+    <html lang="es">
       <body>{children}</body>
     </html>
   )
